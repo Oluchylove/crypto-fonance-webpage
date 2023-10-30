@@ -1,0 +1,336 @@
+@media only screen and (max-width:768px){
+    .grid-nav-mobile{
+        display: block;
+        background-color: #141627;
+        padding: 20px 20px;
+    }
+    #nav-mobile{
+        display: none;
+    }
+    .mobile-grid-menu{
+        color: aliceblue;
+        margin-bottom: 10px;
+    }
+    .mobile-grid-menu:hover{
+        color: #C942FA !important;
+        margin-bottom: 10px;
+    }
+    .grid-banner{
+        display: none;
+    }
+    .nav-mobile-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    #mobile-icon{
+        color: aliceblue;
+        /* margin-top: 15px; */
+    }
+    .banner-logo{
+        flex: 0;
+    }
+    .banner-btn{
+        background: linear-gradient(92deg, #C942FA 4.87%, #854EF9 106.22%); 
+        color: aliceblue;
+        width: 95px;
+        border: none;
+        border-radius: 13px;
+        font-size: 14px;
+        /* padding: 5px; */
+    }
+    .mobile-banner-btn{
+        background: linear-gradient(92deg, #C942FA 4.87%, #854EF9 106.22%); 
+        color: aliceblue;
+        width: 100px;
+        border: none;
+        border-radius: 13px;
+        font-size: 14px;
+        /* padding: 10px; */
+    }
+    #mobile-banner-btnSub{
+        display: block;
+    }
+    #mobile-apple-btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .banner-cont{
+        display: block;
+        
+    }
+    #mobile-banner-text{
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .banner-textSub{
+        font-size: 13px;
+        text-align: center;
+
+        /* width: 40%; */
+    }
+    .apple-btn{
+        color:  #030518;
+        border-radius: 17px;
+        border: none;
+        margin-right: 10px;
+        background-color: #ffffff;
+        text-align: center;
+        width: 100%;
+    }
+    .apple{
+        height: 25px;
+        width:25px;
+        margin-right: 10px;
+    }
+    .apple-text1{
+        font-size: 14px;
+    }
+    .apple-text2{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .banner-img{
+        display: flex; 
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .phone{
+        height: 400px;
+        width: 350px;
+    }
+    .banner-title{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .container{
+        background-color:  #141627;
+        height:auto;
+        padding: 0px 10px;
+     }
+     .header-text{
+        font-size: 20px;
+        color: #030518;
+        font-weight: 600;
+        
+    }
+    .header-text-sub{
+        font-size: 13px;
+        color: #6D6D70;
+    }
+    .header-card{
+        display: block;
+        color: #030518;
+        padding: 0px 10px;
+        margin-top: 20px;
+
+    }
+    .card{
+        border: 2px solid  #FAFAFA;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .featured-company{
+        overflow-y: scroll;
+    }
+    .mobile-ad-image{
+        display: flex;
+        justify-content: center;
+    }
+    .Ad-img-mobile{
+        height: 400px;
+        width: 350px;
+        display: flex;
+        align-items:center;
+    }
+    .Advantages-text{
+        display: flex; 
+    }
+    .Advantages-mobile{
+        display: block;
+        padding: 0px 10px;
+    }
+    .Advantages-btn-mobile{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .Advantages-btn{
+        padding: 15px;
+        background-color: #ffffff;
+        color: #030518;
+        border: 2px solid  #FAFAFA;
+        border-radius: 17px;
+        font-weight: 600;
+        margin-right: 10px;
+        width: 100%;
+    }
+    .Advantages{
+        display: none;
+    }
+    .Advantages-btn-wrapper{
+        margin-bottom: 20px;
+    }
+    .mobile-customers-review{
+        display:block;
+        margin: 0px 10px;
+        
+    }
+    .customers-review{
+        display: none;
+        
+
+    }
+    #mobile-invite{
+        padding: 0px 10px;
+        margin-top: 20px;
+    }
+    .review-img{
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    .user1{
+        font-weight: 600;
+        color: #030518;
+        margin-top: 0px;
+        font-size: 13px;
+
+    }
+    .user-title{
+        color: #787878;
+        font-size: 11px;
+    }
+    .user-text{
+        color: #6D6D70;
+        font-size: 12px;
+
+    }
+    .footer{
+        background-color: #141627;
+        padding-bottom: 10px;
+        margin-top: 30px;
+        display: none;
+      }
+      .mobile-footer{
+        background-color: #141627;
+        padding: 10px 30px;
+        color: aliceblue;
+        margin-top: 20px;
+        font-size: 13px;
+        display: block;
+      }
+    
+      .mobile-footer-textwrap{
+        text-align: center;
+      }
+      .mobile-footer-content1{
+        display: flex;
+        justify-content: center;
+      }
+      .mobile-footer-content{
+        display: grid;
+        place-items: center;
+      }
+      .footer-cont1{
+        margin-right: 20px;
+      }
+      .wrapper{
+        display: flex;
+      }
+      .line{
+        width: 100%;
+      }
+      
+    .mobile-banner-logo-img{
+        height: 25px;
+        width:100px;
+        margin-top: 20px;
+
+    }
+      .icon-holder{
+        display: flex;
+        margin-top: 10px;
+      }
+      .mobile-termsmain{
+        margin-top: 20px;
+      }
+      .social-media{
+        color: aliceblue;
+        margin-top: 5px;
+        font-size: 16px;
+      }
+      .mobile-footer-icon{
+        margin-right: 10px;
+        border: 1px solid aliceblue;
+        height: 20px;
+        width: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+      }
+      #mobile-invite-textmain{
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      #mobile-header{
+        padding: 0px 10px;
+        margin-top: 20px;
+      }
+      
+      .apple-text1{
+        font-size: 16px;
+        display: none;
+    }
+    .apple-text2{
+        font-weight: 600;
+        font-size: 16px;
+        display: none;
+
+    }
+    .apple-text3{
+        font-size: 10;
+        margin-right: 20px;
+        display: none;
+
+    }
+    .invite-img{
+        background: linear-gradient(to right,rgba(139, 139, 139, 0.113), rgba(213, 213, 213, 0.661));
+        border-radius: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .slider-container{
+        display: none;
+    }
+    .mobile-slider-container{
+        padding: 0px 10px;
+        display: block;
+        margin-top: 20px;
+    }
+    .mobile-slider {
+        /* display: block;
+        gap: 30px; */
+        transition: transform 0.5s ease;
+    }
+    .mobile-slide {
+        border: 2px solid  #e6e6e6;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .invite-textsub{
+        font-size: 13px;
+    }
+    .footer-text{
+        text-align: center;
+    }
+    .footer-sub{
+        display: block;
+    }
+}
